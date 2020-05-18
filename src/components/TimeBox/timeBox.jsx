@@ -65,7 +65,7 @@ class TimeBox extends React.Component {
 
     return isOpen ? (
       <React.Fragment>
-        <Draggable x={10} y={10}>
+        <Draggable x={10} y={60}>
           <div className="sidebarStyle">
             <div className="timehourcontainer">
               <span className="humanReadable">{day}</span>
@@ -74,9 +74,7 @@ class TimeBox extends React.Component {
             </div>
 
             {ISO1806Format ? (
-              <div className="paddingHelper">
-                ISO8601 Format : {ISO1806Format}
-              </div>
+              <div className="paddingHelper">{ISO1806Format}</div>
             ) : null}
           </div>
           <span

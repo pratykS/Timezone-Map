@@ -103,7 +103,7 @@ class Draggable extends React.Component {
           left: this.state.x,
           top: this.state.y,
           touchAction: "none",
-          width: 500,
+          width: "25rem",
           cursor: "move",
         }}
         ref={(div) => {
