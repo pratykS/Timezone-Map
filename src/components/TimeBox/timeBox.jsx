@@ -65,7 +65,7 @@ class TimeBox extends React.Component {
 
     return isOpen ? (
       <React.Fragment>
-        <Draggable x={10} y={60}>
+        <Draggable x={10} y={10}>
           <div className="sidebarStyle">
             <div className="timehourcontainer">
               <span className="humanReadable">{day}</span>
