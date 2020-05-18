@@ -1,0 +1,6 @@
+.draggablePanel {
+  position: "absolute";
+  touch-action: "none";
+  width: 500;
+  cursor: "move";
+}

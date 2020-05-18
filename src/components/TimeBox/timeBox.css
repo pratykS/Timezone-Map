@@ -1,0 +1,58 @@
+.sidebarStyle {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 6px;
+  font-weight: bold;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  transition: width 2s;
+}
+
+.humanReadable {
+  margin: 5px;
+  background: black;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.paddingHelper {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.timehourcontainer {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.closeBtn {
+  background: url("../../static/cancel.svg");
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  top: 5px;
+  left: 5px;
+}
+
+.seeTime {
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  width: auto;
+  height: 20px;
+  color: white;
+  position: absolute;
+  filter: drop-shadow(2px 4px 6px black);
+  padding: 5px;
+  cursor: pointer;
+  margin: 12px;
+}
