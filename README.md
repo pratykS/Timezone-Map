@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+See the timezone map in action : https://qddwd.csb.app/ 
+
 This project includes a Map which has search functionality along with navigation controls like zoom-in and zoom-out
 A timebox whic shows the time of a particular point in ISO1806 format.
 
